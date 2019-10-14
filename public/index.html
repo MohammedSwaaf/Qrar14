@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>QRAR14</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/index.css">
+  
+  <!-- DataTables -->
+  <link rel="stylesheet" href="assets/dataTables.bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="assets/AdminLTE.min.css">
+ 
+  
+</head>
+
+<body>
+
+  <div id="root">
+    <!-- <h1>hi</h1> -->
+  </div>
+
+  <!-- jQuery 3 -->
+  <script src="js/jquery.min.js"></script>
+  <!-- jQuery UI 1.11.4 -->
+  <script src="js/jquery-ui.min.js"></script>
+  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+  <script>
+    $.widget.bridge('uibutton', $.ui.button);
+    $(function () {
+        $('#example1').DataTable()
+        $('#example2').DataTable({
+          'paging': true,
+          'lengthChange': false,
+          'searching': false,
+          'ordering': true,
+          'info': true,
+          'autoWidth': false
+        })
+      })
+  </script>
+  <!-- Bootstrap 3.3.7 -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- DataTables -->
+  <script src="js/jquery.dataTables.min.js"></script>
+  <script src="js/dataTables.bootstrap.min.js"></script>
+
+</body>
+
+</html>
