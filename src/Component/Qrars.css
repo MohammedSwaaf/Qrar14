@@ -1,0 +1,18 @@
+canvas{
+    height:230px
+}
+.wrapper{
+
+    
+    margin: 0px 200px 0 200px;
+    padding: 250px 0 0 0 ;
+}
+.box{
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size:15px; 
+}
+thead th{
+    font-weight: bolder;
+    font-size: 20px;
+}
